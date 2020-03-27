@@ -1,24 +1,38 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿#container {
+    min-width: 800px;
+    width: 80%;
+    margin: 0px auto;
+}
+header{
+    height: 198px;
+    border-bottom: 2px solid black;
+}
+content {
+    width: 100%;
+    float: left;
+    min-width: 500px;
+    min-height: 800px;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+footer {
+    clear: both;
+    text-align: right;
+    padding: 5px 10px;
+    border-top: 2px solid black;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+aside {
+    border-right: 2px solid black;
+    margin-right: 80%;
+    height: 800px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.img{
+    float: right;
+    padding-bottom: 0px;
+}
+
+.name {
+    margin-top: 15px;
+    float: left;
 }
