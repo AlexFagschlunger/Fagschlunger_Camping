@@ -120,7 +120,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CampingPlatzController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReservierungController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -131,6 +133,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\back.jpeg" />
     <Content Include="Content\Images\CampingPlatz.jpg" />
     <Content Include="Content\Images\Home.PNG" />
     <Content Include="Content\Images\Name.PNG" />
@@ -163,10 +166,16 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\Shared\Navigation.cshtml" />
+    <Content Include="Views\Home\Impressum.cshtml" />
+    <Content Include="Views\CampingPlatz\Index.cshtml" />
+    <Content Include="Views\CampingPlatz\Info.cshtml" />
+    <Content Include="Views\CampingPlatz\Preis.cshtml" />
+    <Content Include="Views\CampingPlatz\Bilder.cshtml" />
+    <Content Include="Views\Reservierung\Reservierung.cshtml" />
+    <Content Include="Views\Reservierung\Anfrage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

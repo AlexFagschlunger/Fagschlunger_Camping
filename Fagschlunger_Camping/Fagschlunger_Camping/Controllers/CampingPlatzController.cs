@@ -6,21 +6,23 @@ using System.Web.Mvc;
 
 namespace Fagschlunger_Camping.Controllers
 {
-    public class HomeController : Controller
+    public class CampingPlatzController : Controller
     {
+        // GET: Default
         public ActionResult Index()
         {
             return View();
         }
-
-        public ActionResult About()
+        public ActionResult Info()
         {
-
             return View();
         }
-
-        public ActionResult Impressum()
-        { 
+        public ActionResult Preis()
+        {
+            return View();
+        }
+        public ActionResult Bilder()
+        {
             return View();
         }
     }
