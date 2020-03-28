@@ -19,11 +19,12 @@
             </div>
         </header>
         <main>
+            <nav>
+                @Html.Partial("Navigation")
+            </nav>
+
             <content>
                 @RenderBody()
-                <aside>
-                    Navigation: 
-                </aside>
             </content>
         </main>
 
