@@ -134,7 +134,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\back.jpeg" />
+    <Content Include="Content\Images\Camping.jpeg" />
     <Content Include="Content\Images\CampingPlatz.jpg" />
+    <Content Include="Content\Images\foto1.jpeg" />
+    <Content Include="Content\Images\foto2.jpeg" />
+    <Content Include="Content\Images\foto3.jpeg" />
+    <Content Include="Content\Images\foto4.jpeg" />
+    <Content Include="Content\Images\foto5.jpeg" />
+    <Content Include="Content\Images\foto6.jpeg" />
     <Content Include="Content\Images\Home.PNG" />
     <Content Include="Content\Images\Name.PNG" />
     <Content Include="favicon.ico" />
