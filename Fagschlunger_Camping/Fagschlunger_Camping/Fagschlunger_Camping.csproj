@@ -144,6 +144,7 @@
     <Content Include="Content\Images\foto6.jpeg" />
     <Content Include="Content\Images\Home.PNG" />
     <Content Include="Content\Images\Name.PNG" />
+    <Content Include="Content\Images\Zwischen.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
